@@ -1,0 +1,80 @@
+/*
+Copyrigt 2022 LAOI
+*/
+
+html,
+body {
+    color: black;
+    font-family: "Microsoft Yahei UI", sans-serif;
+    font-size: 13px;
+}
+
+::selection {
+    background: #0095ff60;
+}
+
+::-moz-selection {
+    background: #0095ff60;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.hidetext {
+    font-size: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul .top {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+
+/*等html做好了再优化吧*/
